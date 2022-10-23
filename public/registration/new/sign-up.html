@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Sign Up</title>
+    <!-- <link rel="stylesheet" href="file:///home/shubhanshu/Optum/Apna_Project/registration/reg-style.css"> -->
+    <link rel="stylesheet" href="reg-style.css">
+</head>
+<body>
+    <!-- <script src="https://use.typekit.net/rjb4unc.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+
+    <div class="container">
+        <div class="logo">Registration Dashboard</div>
+        <div class="login-item">
+            <form action="" method="post" class="form form-login">
+                <div class="form-field">
+                    <label for="first-name" style="color: white;">First Name</label>
+                    <input type="text" id="first-name" placeholder="First Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="last-name" style="color: white;">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Last Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="number" style="color: white;">Contact Number</label>
+                    <input type="text" id="reg-number" placeholder="Contact Number" maxlength="15" required>
+                </div>
+                <div class="form-field">
+                    <label for="email" style="color: white;">Email</label>
+                    <input type="text" id="email" placeholder="Email Id" required>
+                </div>
+                <div class="form-field">
+                    <label for="age" style="color: white;">Age</label>
+                    <input type="text" id="age" placeholder="Age" maxlength="3" required>
+                </div>
+                <div class="form-field">
+                    <label for="gender" style="color: white;">Gender</label>
+                    <select id="gender">
+                        <option value="" selected hidden>Select Gender</option>
+                        <option value="M">MALE</option>
+                        <option value="F">FEMALE</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="blood-grp" style="color: white;">Blood Group</label>
+                    <input type="text" id="blood-grp" placeholder="Blood Group" maxlength="3">
+                </div>
+                <div class="form-field">
+                    <label for="income-status" style="color: white;">Select Your Income Range</label>
+                    <select id="income-status">
+                        <option value="" selected hidden>Select Income</option>
+                        <option value="&lt;100K">&lt;100K</option>
+                        <option value="&lt;200K">&lt;200K</option>
+                        <option value="&lt;300K">&lt;300K</option>
+                        <option value="&gt;300K">&gt;300K</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="emr-cont1" style="color: white;">Emergency Contact Number</label>
+                    <input type="text" id="emr-cont2" placeholder="Contact Number" maxlength="15" required>
+                </div>
+                <div class="form-field">
+                    <label for="emr-cont2" style="color: white;">Emergency Contact Number 2</label>
+                    <input type="text" id="emr-cont2" placeholder="Contact Number" maxlength="15" >
+                </div>
+                
+                <div class="form-field">
+                    <label class="user" for="login-username"><span class="hidden">Username</span></label>
+                    <input id="login-username" type="text" class="form-input" placeholder="Username" required>
+                </div>
+
+                <div class="form-field">
+                    <label class="lock" for="login-password"><span class="hidden">Password</span></label>
+                    <input id="login-password" type="password" class="form-input" placeholder="Password" required>
+                </div>
+
+                <div class="form-field">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
